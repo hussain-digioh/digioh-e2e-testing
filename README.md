@@ -14,8 +14,8 @@ This project contains automated end-to-end tests for the Digioh using Playwright
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd digioh-mcp
+git clone https://github.com/hussain-digioh/digioh-e2e-testing
+cd DIGIOH-E2E-TESTING
 ```
 
 2. Install dependencies:
