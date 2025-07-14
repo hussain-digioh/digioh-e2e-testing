@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\login-new.spec.ts",
-      "file": "tests/login-new.spec.ts",
+      "title": "tests\\campaign-list.spec.ts",
+      "file": "tests/campaign-list.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Logo is visible on login page",
+          "title": "Logo is visible on campaign list page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -85,12 +85,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6417,
+                  "duration": 21159,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:09:05.051Z",
+                  "startTime": "2025-07-14T18:08:21.514Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -98,81 +98,13 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-7dfda2e5f3a760841790",
-          "file": "tests/login-new.spec.ts",
-          "line": 12,
-          "column": 5
-        },
-        {
-          "title": "Login button is visible and has expected color",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Chromium",
-              "projectName": "Chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 6734,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-07-14T17:09:12.000Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9dfb0b6566958ad9b94b-8b6fd29c4bf5be18490e",
-          "file": "tests/login-new.spec.ts",
-          "line": 17,
-          "column": 5
-        },
-        {
-          "title": "Forgot Password link is visible on login page",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Chromium",
-              "projectName": "Chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7397,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-07-14T17:09:18.790Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9dfb0b6566958ad9b94b-e3e17ccdd6cafffd79b1",
-          "file": "tests/login-new.spec.ts",
+          "id": "945b2e478ce07259afc4-fd85fb106bd830bb94e2",
+          "file": "tests/campaign-list.spec.ts",
           "line": 25,
           "column": 5
         },
         {
-          "title": "Successful login redirects to dashboard or root page",
+          "title": "Navigation bar is visible",
           "ok": true,
           "tags": [],
           "tests": [
@@ -187,12 +119,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 22759,
+                  "duration": 15857,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:09:26.280Z",
+                  "startTime": "2025-07-14T18:08:43.046Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -200,13 +132,13 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-57ca5b4b36641864b9ad",
-          "file": "tests/login-new.spec.ts",
-          "line": 33,
+          "id": "945b2e478ce07259afc4-8c06d02e83cb32337bdf",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 30,
           "column": 5
         },
         {
-          "title": "Shows error when submitting empty or invalid values",
+          "title": "Campaign link is visible and accessible",
           "ok": true,
           "tags": [],
           "tests": [
@@ -221,12 +153,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 17656,
+                  "duration": 15010,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:09:49.075Z",
+                  "startTime": "2025-07-14T18:08:58.912Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -234,13 +166,115 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-968d97e9716296e62ba3",
-          "file": "tests/login-new.spec.ts",
+          "id": "945b2e478ce07259afc4-9089b80c3d5de9cda10f",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "Reporting link is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16219,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:09:13.929Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-bc478ab84173a4c9d604",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 41,
+          "column": 5
+        },
+        {
+          "title": "A/B Test link is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:09:30.159Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-072e55bc983608779088",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "Integration link is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14573,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:09:44.445Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-35bb979feba2ea75d34d",
+          "file": "tests/campaign-list.spec.ts",
           "line": 53,
           "column": 5
         },
         {
-          "title": "Login form fields are visible and accessible",
+          "title": "User name is visible",
           "ok": true,
           "tags": [],
           "tests": [
@@ -255,12 +289,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 10058,
+                  "duration": 16145,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:10:06.755Z",
+                  "startTime": "2025-07-14T18:09:59.023Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -268,13 +302,13 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-90e552754bf3eaaac466",
-          "file": "tests/login-new.spec.ts",
-          "line": 77,
+          "id": "945b2e478ce07259afc4-26c224e084a8b1fe18a4",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 59,
           "column": 5
         },
         {
-          "title": "Login form accepts valid input",
+          "title": "Filter is visible and accessible",
           "ok": true,
           "tags": [],
           "tests": [
@@ -289,12 +323,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 12449,
+                  "duration": 19223,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:10:16.849Z",
+                  "startTime": "2025-07-14T18:10:15.182Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -302,13 +336,13 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-1315360db9c57b8acfac",
-          "file": "tests/login-new.spec.ts",
-          "line": 93,
+          "id": "945b2e478ce07259afc4-d56e02928e13fa415fd1",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 64,
           "column": 5
         },
         {
-          "title": "Wait warning is displayed when appropriate",
+          "title": "Reorder campaign button is visible and accessible",
           "ok": true,
           "tags": [],
           "tests": [
@@ -323,12 +357,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 25554,
+                  "duration": 15545,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-14T17:10:29.328Z",
+                  "startTime": "2025-07-14T18:10:34.412Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -336,9 +370,685 @@
               "status": "expected"
             }
           ],
-          "id": "9dfb0b6566958ad9b94b-fcec85c5226cc55d2cda",
-          "file": "tests/login-new.spec.ts",
-          "line": 106,
+          "id": "945b2e478ce07259afc4-6c0daa37b6b7dea6bf26",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 70,
+          "column": 5
+        },
+        {
+          "title": "Create campaign button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13682,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:10:49.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-f10c51bf7473f05cb4c3",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Create quiz button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15498,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:11:03.657Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-039beb9a22cbfaf255f4",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "More options button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:11:19.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-d6573be6d7c10c56861c",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 ID is visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:11:33.282Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-ecc5d653cb639d67a57e",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 94,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 name is visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14088,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:11:49.151Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-58d535fd14eba8efaffa",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 99,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 type is visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13642,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:12:03.250Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-7e65c29c857412db8557",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 104,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 condition button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13385,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:12:16.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-e1d7d5729de312bd62a7",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 109,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 publish toggle is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14573,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:12:30.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-2179d13b89e433d9c1a2",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 115,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 preview button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:12:44.874Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-f3e5f00e58150f2a276b",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 edit button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:12:59.531Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-97cec9a4dd4cfee9518a",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 127,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 more options button is visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14796,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:13:13.680Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-7c899be20d3c228de8a5",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 133,
+          "column": 5
+        },
+        {
+          "title": "Create campaign button navigates to campaign creation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:13:28.486Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-9e5ec3661187cf839b81",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "Create quiz button navigates to quiz creation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19304,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:13:48.848Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-b9a384f47bdd5d7faaa2",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 158,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 preview button opens preview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18094,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:14:08.166Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-73b2a21506ba2e28b95c",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 172,
+          "column": 5
+        },
+        {
+          "title": "All navigation links are functional",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15670,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:14:26.276Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-cfdbacca41e5269ba367",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 182,
+          "column": 5
+        },
+        {
+          "title": "Filter functionality is accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15205,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:14:41.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-d5598eb5bde7f333101d",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 195,
+          "column": 5
+        },
+        {
+          "title": "Publish toggle functionality",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17860,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:14:57.169Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-3e523fac4cf2ede1582b",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 205,
+          "column": 5
+        },
+        {
+          "title": "More options functionality",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 39279,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n    at D:\\Work\\digioh-e2e-testing\\tests\\campaign-list.spec.ts:7:6",
+                    "location": {
+                      "file": "D:\\Work\\digioh-e2e-testing\\tests\\campaign-list.spec.ts",
+                      "column": 6,
+                      "line": 7
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[36mconst\u001b[39m loginURL \u001b[33m=\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_URL\u001b[39m\u001b[33m!\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m  6 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[90m// Visit login page and perform login before each test\u001b[39m\n \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(loginURL)\u001b[33m;\u001b[39m\n \u001b[90m 10 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Work\\digioh-e2e-testing\\tests\\campaign-list.spec.ts",
+                        "column": 6,
+                        "line": 7
+                      },
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[36mconst\u001b[39m loginURL \u001b[33m=\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mAPP_URL\u001b[39m\u001b[33m!\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m  6 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[90m// Visit login page and perform login before each test\u001b[39m\n \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(loginURL)\u001b[33m;\u001b[39m\n \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Work\\digioh-e2e-testing\\tests\\campaign-list.spec.ts:7:6\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:15:15.046Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Work\\digioh-e2e-testing\\test-results\\tests-campaign-list-More-options-functionality-Chromium\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Work\\digioh-e2e-testing\\tests\\campaign-list.spec.ts",
+                    "column": 6,
+                    "line": 7
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-bb38bf4fa6cf536274ca",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 215,
+          "column": 5
+        },
+        {
+          "title": "Campaign 1 more options functionality",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21354,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T18:15:56.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "945b2e478ce07259afc4-219a12e704e1ee335126",
+          "file": "tests/campaign-list.spec.ts",
+          "line": 225,
           "column": 5
         }
       ]
@@ -346,11 +1056,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-14T17:09:02.668Z",
-    "duration": 115764.48,
-    "expected": 8,
+    "startTime": "2025-07-14T18:08:19.640Z",
+    "duration": 479187.201,
+    "expected": 27,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
