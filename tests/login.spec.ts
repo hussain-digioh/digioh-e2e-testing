@@ -32,6 +32,26 @@ test('Forgot Password link is visible on login page', async ({ page }) => {
   await expect(forgotPasswordLink).toBeVisible();
 });
 
+// test('Successful login redirects to dashboard or root page', async ({ page }) => {
+//   const emailField = page.getByRole('textbox', { name: 'Email' });
+//   const passwordField = page.locator('input[name="Password"]');
+//   const loginButton = page.getByRole('button', { name: 'Login' });
+
+//   await emailField.fill(validEmail);
+//   await passwordField.fill(validPassword);
+//   await loginButton.click();
+
+//   // Wait for navigation/redirect after login
+//   await page.waitForURL(loginURL, { timeout: 100000 });
+
+//   await expect(page).toHaveURL(loginURL);
+
+//   // Wait for dashboard heading to appear after login
+//   const dashboardElement = page.getByRole('heading', { name: 'Current Boxes' });
+//   await dashboardElement.waitFor({ state: 'visible', timeout: 5000 });
+//   await expect(dashboardElement).toBeVisible();
+// });
+
 test('Shows error when submitting empty or invalid values', async ({ page }) => {
   const emailField = page.getByRole('textbox', { name: 'Email' });
   const passwordField = page.locator('input[name="Password"]');
@@ -56,23 +76,3 @@ test('Shows error when submitting empty or invalid values', async ({ page }) => 
   await expect(dashboardHeading).not.toBeVisible();
 });
 
-
-test('Successful login redirects to dashboard or root page', async ({ page }) => {
-  const emailField = page.getByRole('textbox', { name: 'Email' });
-  const passwordField = page.locator('input[name="Password"]');
-  const loginButton = page.getByRole('button', { name: 'Login' });
-
-  await emailField.fill(validEmail);
-  await passwordField.fill(validPassword);
-  await loginButton.click();
-
-  // Wait for navigation/redirect after login
-  await page.waitForURL(loginURL, { timeout: 100000 });
-
-  await expect(page).toHaveURL(loginURL);
-
-  // Wait for dashboard heading to appear after login
-  const dashboardElement = page.getByRole('heading', { name: 'Current Boxes' });
-  await dashboardElement.waitFor({ state: 'visible', timeout: 5000 });
-  await expect(dashboardElement).toBeVisible();
-});

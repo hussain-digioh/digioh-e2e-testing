@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\Work\\digioh-mcp\\playwright.config.ts",
-    "rootDir": "D:/Work/digioh-mcp",
+    "configFile": "D:\\Work\\digioh-e2e-testing\\playwright.config.ts",
+    "rootDir": "D:/Work/digioh-e2e-testing",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -39,7 +39,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "D:/Work/digioh-mcp/test-results",
+        "outputDir": "D:/Work/digioh-e2e-testing/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -47,7 +47,7 @@
         },
         "id": "Chromium",
         "name": "Chromium",
-        "testDir": "D:/Work/digioh-mcp",
+        "testDir": "D:/Work/digioh-e2e-testing",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -59,18 +59,18 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.52.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\box-list.spec.ts",
-      "file": "tests/box-list.spec.ts",
+      "title": "tests\\login-new.spec.ts",
+      "file": "tests/login-new.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Create New Box button is present and redirects to themes page",
+          "title": "Logo is visible on login page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -85,12 +85,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 25917,
+                  "duration": 6417,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-21T20:25:13.211Z",
+                  "startTime": "2025-07-14T17:09:05.051Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -98,13 +98,81 @@
               "status": "expected"
             }
           ],
-          "id": "c7aedf4bafd4f13a54f9-22a3b616f634f175bb46",
-          "file": "tests/box-list.spec.ts",
+          "id": "9dfb0b6566958ad9b94b-7dfda2e5f3a760841790",
+          "file": "tests/login-new.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Login button is visible and has expected color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6734,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T17:09:12.000Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9dfb0b6566958ad9b94b-8b6fd29c4bf5be18490e",
+          "file": "tests/login-new.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Forgot Password link is visible on login page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7397,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T17:09:18.790Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9dfb0b6566958ad9b94b-e3e17ccdd6cafffd79b1",
+          "file": "tests/login-new.spec.ts",
           "line": 25,
           "column": 5
         },
         {
-          "title": "Create New Quiz button is present and redirects to Quiz Builder",
+          "title": "Successful login redirects to dashboard or root page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -119,12 +187,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 24501,
+                  "duration": 22759,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-21T20:25:39.840Z",
+                  "startTime": "2025-07-14T17:09:26.280Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -132,13 +200,13 @@
               "status": "expected"
             }
           ],
-          "id": "c7aedf4bafd4f13a54f9-ace108f010b8a3cf1913",
-          "file": "tests/box-list.spec.ts",
-          "line": 37,
+          "id": "9dfb0b6566958ad9b94b-57ca5b4b36641864b9ad",
+          "file": "tests/login-new.spec.ts",
+          "line": 33,
           "column": 5
         },
         {
-          "title": "Navigation banner and links are visible",
+          "title": "Shows error when submitting empty or invalid values",
           "ok": true,
           "tags": [],
           "tests": [
@@ -153,12 +221,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 21078,
+                  "duration": 17656,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-21T20:26:04.399Z",
+                  "startTime": "2025-07-14T17:09:49.075Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -166,9 +234,111 @@
               "status": "expected"
             }
           ],
-          "id": "c7aedf4bafd4f13a54f9-b0201fb25e8066c3f98d",
-          "file": "tests/box-list.spec.ts",
-          "line": 48,
+          "id": "9dfb0b6566958ad9b94b-968d97e9716296e62ba3",
+          "file": "tests/login-new.spec.ts",
+          "line": 53,
+          "column": 5
+        },
+        {
+          "title": "Login form fields are visible and accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T17:10:06.755Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9dfb0b6566958ad9b94b-90e552754bf3eaaac466",
+          "file": "tests/login-new.spec.ts",
+          "line": 77,
+          "column": 5
+        },
+        {
+          "title": "Login form accepts valid input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T17:10:16.849Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9dfb0b6566958ad9b94b-1315360db9c57b8acfac",
+          "file": "tests/login-new.spec.ts",
+          "line": 93,
+          "column": 5
+        },
+        {
+          "title": "Wait warning is displayed when appropriate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-14T17:10:29.328Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9dfb0b6566958ad9b94b-fcec85c5226cc55d2cda",
+          "file": "tests/login-new.spec.ts",
+          "line": 106,
           "column": 5
         }
       ]
@@ -176,9 +346,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-21T20:25:09.845Z",
-    "duration": 76640.898,
-    "expected": 3,
+    "startTime": "2025-07-14T17:09:02.668Z",
+    "duration": 115764.48,
+    "expected": 8,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
